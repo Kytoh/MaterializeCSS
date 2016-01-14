@@ -2164,34 +2164,21 @@
   color: transparent !important;
 }
 
-/**
- * 1. Correct `color` not being inherited in IE 8/9/10/11.
- * 2. Remove padding so people aren't caught out if they zero out fieldsets.
- */
+
 legend {
   border: 0;
-  /* 1 */
   padding: 0;
-  /* 2 */
 }
 
-/**
- * Remove default vertical scrollbar in IE 8/9/10/11.
- */
+
 textarea {
   overflow: auto;
 }
 
-/**
- * Don't inherit the `font-weight` (applied by a rule above).
- * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
- */
+
 optgroup {
   font-weight: bold;
 }
-
-/* Tables
-   ========================================================================== */
 
 html {
   box-sizing: border-box;
@@ -2215,11 +2202,6 @@ video.responsive-video {
   height: auto;
 }
 
-
-
-/*******************
-  Utility Classes
-*******************/
 .hide {
   display: none !important;
 }
@@ -3345,7 +3327,6 @@ button.btn-floating {
   height: 100%;
   left: initial;
   width: 500px;
-  /*width 100% only goes to width of button container */
 }
 
 .fixed-action-btn.horizontal ul li {
@@ -3452,14 +3433,7 @@ button.btn-floating {
   line-height: inherit;
 }
 
-/*!
- * Waves v0.6.0
- * http://fian.my.id/Waves
- *
- * Copyright 2014 Alfiana E. Sibuea and other contributors
- * Released under the MIT license
- * https://github.com/fians/Waves/blob/master/LICENSE
- */
+
 .waves-effect {
   position: relative;
   cursor: pointer;
@@ -3565,7 +3539,6 @@ button.btn-floating {
   display: block;
 }
 
-/* Firefox Bug: link not triggered */
 a.waves-effect .waves-ripple {
   z-index: -1;
 }
@@ -3817,7 +3790,6 @@ a.waves-effect .waves-ripple {
   -webkit-font-smoothing: antialiased;
 }
 
-/* Remove Focus Boxes */
 select:focus {
   outline: 1px solid #c9f3ef;
 }
