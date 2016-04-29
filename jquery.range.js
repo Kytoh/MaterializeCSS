@@ -75,7 +75,7 @@
 				return;
 			} else {
 				this.options.width = this.options.width || this.inputNode.width();
-				this.domNode.width(concat(this.options.width,'%'));
+				this.domNode.width( this.options.width + '%' );
 				this.inputNode.hide();
 			}
 
