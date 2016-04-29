@@ -35,7 +35,7 @@
 			step: 1,
 			format: '%s',
 			theme: 'theme-green',
-			width: 80,
+			width: 300,
 			disable: false,
 			snap: false
 		},
@@ -75,7 +75,7 @@
 				return;
 			} else {
 				this.options.width = this.options.width || this.inputNode.width();
-				this.domNode.width( this.options.width );
+				this.domNode.width(this.options.width);
 				this.inputNode.hide();
 			}
 
@@ -295,7 +295,7 @@
 			return ((this.options.value + this.options.from + this.options.to).indexOf(".")===-1) ? false : true;
 		},
 		positionToValue: function(pos) {
-			var value = (pos / this.domNode.width() ) * this.interval;
+			var value = (pos / this.domNode.width()) * this.interval;
 			value = parseFloat(value, 10) + parseFloat(this.options.from, 10);
 			if (this.isDecimal()) {
 				var final = Math.round(Math.round(value / this.options.step) * this.options.step *100)/100;
