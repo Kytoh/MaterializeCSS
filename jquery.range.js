@@ -295,7 +295,7 @@
 			return ((this.options.value + this.options.from + this.options.to).indexOf(".")===-1) ? false : true;
 		},
 		positionToValue: function(pos) {
-			var value = (pos / this.domNode.width() - 1)) * this.interval;
+			var value = (pos / this.domNode.width() ) * this.interval;
 			value = parseFloat(value, 10) + parseFloat(this.options.from, 10);
 			if (this.isDecimal()) {
 				var final = Math.round(Math.round(value / this.options.step) * this.options.step *100)/100;
